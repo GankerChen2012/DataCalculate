@@ -33,12 +33,15 @@ namespace DataCalculate
 
             //Sort();
 
+            //kmp算法
+            //KmpCalculate kc=new KmpCalculate();
 
             //四则运算
-            //Calculate calculate=new Calculate();
+            //Calculate calculate = new Calculate();
             //string str = "9 + 5 * ( 2 + 4 * ( 3 + 2 ) / 5 ) - 1";
             //calculate.CalculateSum(str);
 
+            Tree tree=new Tree();
 
             Console.ReadLine();
         }
